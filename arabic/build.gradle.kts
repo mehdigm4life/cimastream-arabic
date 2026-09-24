@@ -1,10 +1,14 @@
 version = 1
 
 cimastream {
-    description = "Arabic movies and TV shows provider"
+    setRepo("https://github.com/mehdigm4life/cimastream-arabic")
+    buildBranch = "plugins"
+    description = "مشاهدة وتحميل الأفلام والمسلسلات العربية والأجنبية والمترجمة."
     authors = listOf("MehdiGM")
+    status = 1
     language = "ar"
     tvTypes = listOf("Movie", "TvSeries")
+    iconUrl = "https://raw.githubusercontent.com/mehdigm4life/cimastream-arabic/plugins/icon.png"
 }
 
 android {
