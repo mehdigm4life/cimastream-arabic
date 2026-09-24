@@ -1,9 +1,0 @@
-{
-  "name": "CimaStream العربية",
-  "description": "بوابتك العربية الأولى لمشاهدة الأفلام والمسلسلات على CimaStream — بجودة عالية وبدون إعلانات.",
-  "iconUrl": "https://raw.githubusercontent.com/mehdigm4life/cimastream-arabic/plugins/icon.png",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/mehdigm4life/cimastream-arabic/plugins/plugins.json"
-  ]
-}
