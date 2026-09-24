@@ -47,6 +47,7 @@ jobs:
           git rm -rf . >/dev/null 2>&1 || true
           cp -f arabic/build/arabic.cima4 ./arabic.cima4
           cp -f build/plugins.json ./plugins.json
-          git add -f arabic.cima4 plugins.json
+          cp -f icon.png ./icon.png
+          git add -f arabic.cima4 plugins.json icon.png
           git -c user.name="MehdiGM" -c user.email="mehdigm4life@users.noreply.github.com" commit -m "Update plugins [skip ci]" || true
           git push --force origin plugins
